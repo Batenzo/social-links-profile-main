@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.hero{
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pic img{
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.title{
+    margin-bottom: 25px;
+}
+.title h3{
+    margin-bottom: 10px;
+}
+
+.title h5{
+    color: hsl(75, 94%, 57%);
+
+}
+
+.about{
+    margin-bottom: 25px;
+}
+
+.about p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box button{
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px 40px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 12%);
+    font-weight: 600;
+}
+
+div.box.GitHub button{
+    padding: 15px 125px;
+    border-radius: 10px;
+}
+
+div.box.frontendmentor button{
+    padding: 15px 95px;
+    border-radius: 10px;
+}
+
+div.box.Linkedin button{
+    padding: 15px 122px;
+    border-radius: 10px;
+}
+
+div.box.Twitter button{
+    padding: 15px 127px;
+    border-radius: 10px;
+}
+
+div.box.Instagram button{
+    padding: 15px 118px;
+    border-radius: 10px;
+}
+
+
+.attribution{
+    text-align: center;
+    color: white;
+}
